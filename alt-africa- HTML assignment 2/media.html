@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Webpage: A Fun Introduction with HTML</title>
+    <link rel="stylesheet" href="./assets/styles/media.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="./table.html">Go to the Table page</a>
+            <a href="../index.html">Go to the main page</a>
+          </li>
+        </ul>
+        <header id="top"></header>
+      </nav>
+      <hr />
+
+    <main>
+      <h1>My Personal Webpage: A Fun Introduction with HTML</h1>
+
+      <nav>
+        <ul>
+          <li><a href="#basic information">Basic Information about myself</a></li>
+          <li><a href="#biography">My Biography</a></li>
+          <li><a href="#pictures">My Favourite pictures </a></li>
+          <li><a href="#audio">My Favourite Music</a></li>
+          <li><a href="#video">My Favourite Video </a></li>
+          <li><a href="#embede">Embeded video of what one needs to know about Mars</a></li>
+          <li><a href="#track">Easy way to learn Python</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+
+    <main>
+      <h1>Welcome to My Page! I hope you have fun scrolling.</h1>
+      <hr />
+
+      <section id="about me">
+        <h2>BASIC INFORMATION</h2> <br>
+        <p><strong>Profile Picture</strong> <img src="" alt=""></p> <br>
+        <p><strong>Name:</strong> Dansu Janet Mause</p> <br>                                                                         
+        <p><strong>Alt School Id:</strong>ALT/SOE/024/5359</p><br>
+        <p><strong>Track:</strong>School of Engineering</p><br>
+        <p><strong>Specialisation:</strong> Backend Engineering</p><br>
+        <p><strong>Skills:</strong>HTML,CSS</p><br>
+        <p><strong>Current Semester:</strong>1st Semester</p><br>
+        <p><strong>Email</strong>:gbemicao@gmail.com</p><br>
+        <p><strong>Location:</strong>Lagos, Nigeria</p><br>
+        <p><strong>LinkedIn Profile:</strong>https://www.linkedin.com/in/dansu-janet-mause</p><br>
+    </section>
+
+      <section id="biography">
+        <h1>From Courtrooms to Code: My Spaghetti-Fueled Journey into Backend Engineering</h1>
+
+        <p>
+          I’m a Law graduate who’s decided to swap courtroom dramas for backend
+          engineering. Why? Because I realized I’d much rather debug code than
+          argue with people (most of the time). Growing up as the firstborn of
+          three, I was basically my parents’ beta test—federal universities
+          weren’t the best idea, but hey, I survived (barely).
+        </p>
+
+        <p>
+          During my time at the University of Lagos (UNILAG), I was consistently
+          in the top 5% of my class. I’d love to say it’s because I’m a genius,
+          but let’s be real—it’s probably because I overthink everything. My
+          legal background taught me critical thinking, attention to detail, and
+          how to structure arguments—skills that are surprisingly handy when I’m
+          staring at a screen, trying to figure out why my code won’t compile.
+        </p>
+
+        <p>
+          These days, I’m diving into backend engineering, where I get to solve
+          problems, work with databases, and build APIs. It’s like being a
+          digital architect, except I don’t have to wear a hard hat. I’m
+          teaching myself by building small projects, experimenting with Python
+          and SQL, and figuring things out as I go. It’s challenging, but I’m
+          loving every bit of it.
+        </p>
+
+        <p>
+          When I’m not wrestling with code, you’ll probably find me eating
+          spaghetti (my ultimate love language) or rewatching Avatar: The Last
+          Airbender for the 47th time. And don’t even get me started on Attack
+          on Titan—that show emotionally wrecked me, but I’d do it all over
+          again. Also, let’s settle this once and for all: Katara is the best
+          character in Avatar. Fight me.
+        </p>
+
+        <p>
+          I’m especially interested in using tech to solve real-world problems,
+          like improving access to legal resources through tech-driven
+          solutions. If you’re as passionate about tech (or food) as I am, let’s
+          connect! I’m always open to new ideas, collaborations, or just
+          chatting about why Katara is the GOAT.
+        </p>
+      </section>
+
+      <section id="pictures">
+        <h1><strong>My favourite pictures</strong></h1>
+        <hr />
+
+        <h2><em>Favourite picture of myself</em></h2>
+        <img src="assets/picture/5.jpg" alt="" />
+        <hr />
+
+        <h1><em>My Favourite Food</em></h1>
+        <picture>
+          <source srcset="assets/picture/3.jpg" media="(min-width: 1200px)" />
+          <source
+            srcset="assets/picture/1.jpg"
+            media="(min-width: 900px) and (max-width: 1199px)"
+          />
+          <source
+            srcset="assets/picture/2.jpg"
+            media="(min-width: 768px) and (max-width: 899px)"
+          />
+          <source srcset="assets/picture/4.jpg" media="(max-width: 767px)" />
+          <!-- Default fallback image if no conditions match -->
+          <img src="assets/picture/1.jpg" alt="Responsive example" />
+        </picture>
+      </section>
+
+          <section id="audio">
+            <h1><em>My Favourite Music</em></h1>
+            <audio controls src="./assets/music/avicii.mp3"></audio>
+          </section>
+        </article>
+        <hr>
+
+      <section id="video">
+        <h1>My Favourite Video</h1>
+        <video controls>
+          <source src="./assets/video/jim.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </section>
+
+     
+        <section id="embede">
+          <h1><em> Embedded video of what you need to know about Mars</em></h1>
+          <iframe src="https://www.youtube.com/embed/0S-uDPqV06o?si=U4TV0g-8mTP_67sz" title="YouTube video player" frameborder="0">
+          </iframe>
+        </section>
+      <hr>
+
+      <!-- Track Element -->
+        <section id="track">
+          <h1><em>Track Element</em></h1>
+          <video controls>
+            <source src="assets/video/What to learn to become a python BE developer.mp4">
+            <track src="assets/subtitle/[SubtitleTools.com] [English (auto-generated)] What To Learn To Become a Python Backend Developer [DownSub.com].vtt" default kind="captions" srclang="en" label="English">
+          </video>
+        </section>
+      
+    <footer>
+      <p><a href="#top">Back to top</a></p> <br>
+      <p>&copy; 2025 My Personal Webpage. All rights reserved.</p>
+    </footer>
+    <hr>
+ 
+  </main>
+  </body>
+</html>
